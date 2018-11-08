@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Aframe</title>
+    <script src="https://unpkg.com/aframe-physics-system@1.4.0/dist/aframe-physics-system.min.js"></script>
+    <script src="https://aframe.io/releases/0.7.0/aframe.min.js"></script>
+</head>
+<body>
+    <a-scene physics>
+         <a-box color="#F5CBA7"
+                width="1"
+                height="1"
+                depth="1"
+                position="0 3 0"
+                dynamic-body>
+
+                <a-plane color="#6E2C00"
+                         width="1"
+                         height="0.25"
+                         position="0 0.4 0.501"   >
+                         <a-plane color="#6E2C00"
+                                 width="0.125"
+                                 height="0.125"
+                                 position="0.435 -0.175 0">
+
+                         </a-plane>
+                         <a-plane color="#6E2C00"
+                         width="0.125"
+                         height="0.125"
+                         position="0.435 -0.175 0">
+
+                </a-plane>
+        </a-box>
+        <a-box color="#85C1E9"
+                width="1"
+                height="1.4"
+                depth="0.7"
+                position="0 1.8 0">
+
+        </a-box> 
+        <a-box color="#85C1E9"
+                width="0.4"
+                height="0.4"
+                depth="0.7"
+                position="0.6 2.3 0">
+
+        </a-box>
+        <a-box color="#85C1E9"
+                width="0.4"
+                height="0.4"
+                depth="0.7"
+                position="-0.6 2.3 0">
+
+</a-box>
+        <a-plane color="#196F3D"
+                    width="10"
+                    height="10"
+                    rotation="90 0 0"
+                    side="double">
+
+        </a-plane>
+        <a-sky color="#ECECEC"></a-sky>  
+    </a-scene>
+</body>
+</html>
